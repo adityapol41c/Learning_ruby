@@ -1,5 +1,5 @@
 class Vehicle
-  attr_accessor :make, :model, :year
+  vehicle_detail :make, :model, :year
 
   def initialize(make, model, year)
     @make = make
@@ -21,7 +21,7 @@ class Vehicle
 end
 
 class Car < Vehicle
-  attr_accessor :doors
+  vehicle_detail :doors
 
   def initialize(make, model, year, doors)
     super(make, model, year)
