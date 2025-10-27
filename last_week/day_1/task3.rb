@@ -19,4 +19,3 @@ else
   puts "num is not spy #{n}"
 end
 
-
